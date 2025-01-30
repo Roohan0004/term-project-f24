@@ -2,7 +2,7 @@
   "rules": {
     "color-no-invalid-hex": true,
     "font-family-no-duplicate-names": true,
-    "declaration-block-trailing-semicolon": "always",
+    "block-opening-brace-space-before": "always",
     "length-zero-no-unit": true,
     "unit-no-unknown": true,
     "property-no-unknown": true,
