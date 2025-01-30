@@ -2,8 +2,8 @@
   "rules": {
     "color-no-invalid-hex": true,
     "font-family-no-duplicate-names": true,
-    "declaration-block-semicolon-newline-after": "always",
-    "number-leading-zero": "always",
+    "declaration-block-trailing-semicolon": "always",
+    "length-zero-no-unit": true,
     "unit-no-unknown": true,
     "property-no-unknown": true,
     "selector-pseudo-class-no-unknown": true,
