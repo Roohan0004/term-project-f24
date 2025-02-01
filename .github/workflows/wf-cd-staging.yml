@@ -10,7 +10,7 @@ jobs:
       - name: checkout repo 
         uses: actions/checkout@v4
         with:
-          ref: {{github.ref}}
+          ref: ${{github.ref}}
       - name: Create Build Artifacts
         run: |
           npx parcel build "./src/index.html" --dist-dir "./dist" --public-url "./"
