@@ -41,56 +41,43 @@ main {
     text-decoration: underline;
 }
 
-/* Intro Section Styles */
-.intro {
+/* About Intro Section Styles */
+.about-intro {
     text-align: center;
     margin: 3rem 0;
 }
 
-.intro h2 {
+.about-intro h2 {
     font-size: 2.4rem;
     color: #2c3e50;
 }
 
-.intro p {
+.about-intro p {
     font-size: 1.6rem;
     color: #666;
 }
 
-.read-more {
-    display: inline-block;
-    margin-top: 1rem;
-    color: #3498db;
-    text-decoration: none;
-    font-weight: bold;
+/* Team Section Styles */
+.team {
+    margin-top: 3rem;
 }
 
-.read-more:hover {
-    text-decoration: underline;
-}
-
-/* Highlights Section Styles */
-.highlights {
-    display: flex;
-    justify-content: space-between;
-    gap: 2rem;
-}
-
-.highlight {
+.team-member {
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 2rem;
-    flex: 1;
+    margin-bottom: 2rem;
     text-align: center;
 }
 
-.highlight h3 {
+.team-member h3 {
     font-size: 2rem;
     color: #2c3e50;
+    margin-bottom: 0.5rem;
 }
 
-.highlight p {
+.team-member p {
     font-size: 1.6rem;
     color: #666;
 }
@@ -119,23 +106,19 @@ main {
         gap: 1rem;
     }
 
-    .highlights {
-        flex-direction: column;
-    }
-
-    .intro {
+    .about-intro {
         padding: 1rem;
     }
 
-    .highlight {
+    .team-member {
         padding: 1.5rem;
     }
 
-    .highlight h3 {
+    .team-member h3 {
         font-size: 1.8rem;
     }
 
-    .highlight p {
+    .team-member p {
         font-size: 1.4rem;
     }
 }
